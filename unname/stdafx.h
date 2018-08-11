@@ -22,4 +22,8 @@
 #include <cctype>
 
 
+#define _LIBCPP_UNREACHABLE() abort()
+
+#define _LIBCPP_FALLTHROUGH() ((void)0)
+
 // TODO: reference additional headers your program requires here
